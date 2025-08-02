@@ -171,6 +171,10 @@ git branch -vv
 
 ## Other useful information from internet 
 
+### Check which repository you’re in
+
+``` git config --get remote.origin.url ```
+
 ### Save (Stash) Local Work First, Then Sync with GitHub
 
 If you’ve made changes in a local working directory and want to pull updates from GitHub first, the strategy is:
